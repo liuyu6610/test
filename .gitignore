@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 模型与缓存（体积大，不入版本控制）
+outputs/models/*.pt
+outputs/cache/*.npy
+
+# OS
+.DS_Store
+Thumbs.db
